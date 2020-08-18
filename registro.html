@@ -1,0 +1,74 @@
+<DOCKTYPE html>
+    <html lang="pt-BR">
+        <head>
+            <link rel="stylesheet" type="text/css" href="./main.css"/>
+            <meta charset="utf-8"/>
+            <title>Cadastro</title>
+        </head>
+        <script src="./java.js"></script>
+        <body>
+            <header>
+                <h1>Faça seu cadastro!</h1>
+                <strong><p>Todos os campos obrigatorios!</p></strong>
+            </header>
+            <style>
+            
+            p {color: black; heigth: 10px;}
+            
+            </style>
+            <div class="formulario">
+                <form method="post" action="/form_action.php">
+                    <div class="formulario-nome">
+                        <label for="name">Nome: </label>
+                        <input type="text" id="name" name="name" required>
+                        <br>
+                        
+                        <br>
+                    <div class="formulario-sobnome">
+                        <label for="sobnome">Somente o primeiro sobrenome: </label>
+                        <input type="text" id="sobnome" name="sobnome" required>
+                        <br>
+                        
+                        <br>
+                    <div class="formulario-email">
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email" required>
+                        <br>
+                        
+                        <br>
+                    <div class="formulario-tel">
+                        <label for="tel">Telefone: +55 </label>
+                        <input type="tel" id="tel" name="tel" required>
+                        <br>
+                    
+                        <br>
+                    <div class="formulario_user">
+                        <label for="user-name">Nome de Usuário: </label>
+                        <input type="text" id="user_name" name="user_name">
+                        <br>
+                    
+                        <br>
+                        <div class="formulario-pass">
+                        <label for="pwd">Password: </label>
+                        <input type="password" id="pwd" name="pwd" required>
+                        <br>
+                    
+                        <br>
+                        
+                        <br>
+                        <button onclick="Send()">Enviar</button>
+                        <input type="reset" value="reset">
+                    
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                </form>
+                <p>Já tem uma conta? Então faça <a href="/pags/login.html">Login!</a></p>
+            </div>
+        </body>
+    </html>
+        

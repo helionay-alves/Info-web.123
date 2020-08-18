@@ -1,0 +1,1 @@
+Aqui deveria ficar com as senhas do PHP!
